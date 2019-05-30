@@ -24,7 +24,7 @@ if the cell is on the last infection state (7) it will goes to the transition st
 if the cell is on te transition state (8) is will goes the recovered state (9).<br />
 <br />
 When the program is running you can pause (pressing the space bar), initicial a new random matrix (pressing the R) or quit (pressing the Q).
+<br />
 
-
-
-
+**Apresentation video**
+https://www.youtube.com/watch?v=dLnl1i5_LB8&feature=youtu.be
