@@ -4,10 +4,8 @@ Repository containing a cellular automata made with python using pygame trying t
 This code was made by using Python and a library calling pygame to show the interactions between the cells.
 
 **intalling**
-
-first of all you have to install pygame, on you terminal type the comand:
+first of all you have to install pygame, on you terminal type the comand: <br />
 pip install pygame
-
 **end installing**
 
 This Automata follow somes transictions rules to the cells change the states, it is based on the compartimental models.
@@ -16,7 +14,7 @@ After a cell gets infected, it will keep 7 generations/unity of time/steps on th
 time of Dengue). When you run the program, the algoritm will fill the matrix with 0 (susceptible) or 1 (initial infectious state), the probability of a cell get a 0 is bigger than get a 1, thats why on the first scene you will see more white spaces than red.
 
 
-Rules to transiction:
+**Rules to transiction:** <br />
 if the cell is on state 0 (susceptible) and has more than 3 infected neighbors, it will goes to the first infected state (1).
 if the cell is on state 0 (susceptible) and has less than 3 infected neighbors, it will keep on state 0.
 
