@@ -18,7 +18,7 @@ time of Dengue). When you run the program, the algoritm will fill the matrix wit
 if the cell is on state 0 (susceptible) and has more than 3 infected neighbors, it will goes to the first infected state (1). <br />
 if the cell is on state 0 (susceptible) and has less than 3 infected neighbors, it will keep on state 0. <br />
 <br />
-if the cell is on a infected state (1,2,3,4,5,6) it will goes to the next state when the the next generation arise. <br />
+if the cell is on a infected state (1,2,3,4,5,6) it will goes to the next state when the next generation arise. <br />
 if the cell is on the last infection state (7) it will goes to the transition state (8). <br />
 <br />
 if the cell is on te transition state (8) is will goes the recovered state (9).<br />
