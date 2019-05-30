@@ -21,7 +21,7 @@ if the cell is on state 0 (susceptible) and has less than 3 infected neighbors, 
 if the cell is on a infected state (1,2,3,4,5,6) it will goes to the next state when the the next generation arise. <br />
 if the cell is on the last infection state (7) it will goes to the transition state (8). <br />
 <br />
-it the cell is on te transition state (8) is will goes the recovered state (9).<br />
+if the cell is on te transition state (8) is will goes the recovered state (9).<br />
 <br />
 When the program is running you can pause (pressing the space bar), initicial a new random matrix (pressing the R) or quit (pressing the Q).
 
