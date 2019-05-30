@@ -3,9 +3,9 @@ Repository containing a cellular automata made with python using pygame trying t
 
 This code was made by using Python and a library calling pygame to show the interactions between the cells.
 
-**intalling**
+**intalling** <br />
 first of all you have to install pygame, on you terminal type the comand: <br />
-pip install pygame
+pip install pygame <br />
 **end installing**
 
 This Automata follow somes transictions rules to the cells change the states, it is based on the compartimental models.
