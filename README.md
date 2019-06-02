@@ -8,8 +8,7 @@ first of all you have to install pygame, on you terminal type the comand: <br />
 pip install pygame <br />
 **end installing**
 
-This Automata follow some transictions rules to the cells change the states, it is based on the compartimental models.
-The cells has 3 states: susceptible (white), infectious (red) and recovered (green).
+This Automata follow some transictions rules to the cells change the states, it is based on the compartimental models and the 8-cell Moore neighborhood. The cells has 3 states: susceptible (white), infectious (red) and recovered (green).
 After a cell gets infected, it will keep 7 generations/unity of time/steps on that state, so 1 to 7 (this rule was based on the recover 
 time of Dengue). When you run the program, the algoritm will fill the matrix with 0 (susceptible) or 1 (initial infectious state), the probability of a cell get a 0 is bigger than get a 1, thats why on the first scene you will see more white spaces than red.
 
