@@ -1,7 +1,31 @@
 import random
 import sys
+from typing import Any
+
 import pygame
 
+class Cell:
+
+    def __init__(self, infect_time, state, age):
+
+        self.infect_time = infect_time
+        self.state = state
+        self.age = age
+
+    def getinfect_time(self):
+        return self.infect_time
+    def setinfect_time(self, time):
+        self.infect_time = time
+
+    def getstate(self):
+        return self.state
+    def setstate(self, state):
+        self.state = state
+
+    def getage(self):
+        return self.age
+    def setage(self, age):
+        self.age = age
 
 class ModelSIR:
 
